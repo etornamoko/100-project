@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    background: linear-gradient(#D9AFD9, #97D9E1);
+    
+
+}
+li{
+    list-style: none;
+}
+
+#selectField{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8px;
+    width: 25vw;
+    background-color: rgb(212, 214, 216);
+    font-size: 20px;
+    
+}
+
+#list{
+    background-color:  rgb(212, 214, 216);
+    margin: 30px;
+    width: 25vw;
+    position: relative;
+    right: 25px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#icon{
+    color: darkorchid;
+}
+
+#arrow{
+    cursor: pointer;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}

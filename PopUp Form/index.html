@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="content-container">
+            <h1>welcome to the real world</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, rerum maxime. Fugiat ad sit atque maiores tenetur totam harum quisquam.</p>
+            <button class="cta-btn" id="open">sign up</button>
+        </div>
+    </header>
+
+    <!-- the form section -->
+     <section class="modal-container" id="modal">
+        <section class="modal">
+            <button class="close-btn" id="close">X</button>
+            <div class="modal-content">
+                <h1>sign up</h1>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Your Full Name" class="form-input">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Your Correct Email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter a Good password" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password">Confirm Password</label>
+                        <input type="password" id="password" placeholder="Confirm Your Password" class="form-input">
+                    </div>      
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </section>
+     </section>
+
+
+ 
+    <script src="app.js"></script>
+</body>
+</html>
