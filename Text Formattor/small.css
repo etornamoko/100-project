@@ -1,0 +1,63 @@
+@media only screen and (max-width:500px) {
+    #container {
+        height: 55vh;
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    .btn {
+        gap: .4rem;
+    }
+
+    .btn>button {
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+
+    #outputBtn {
+        padding: 10px 100px;
+        font-size: 15px;
+        width: 250px;
+        margin: 20px auto;
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    #container {
+        height: 60vh;
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    .btn {
+        gap: .4rem;
+    }
+
+    btn>button {
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+
+    #outputText {
+        padding: 10px 100px;
+        font-size: 15px;
+        width: 250px;
+        margin: 20px auto;
+    }
+
+}
